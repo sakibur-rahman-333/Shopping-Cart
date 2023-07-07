@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"
+      integrity="sha256-ECB9bbROLGm8wOoEbHcHRxlHgzGqYpDtNTgDTyDz0wg="
+      crossorigin="anonymous" />
+    <title>Shopping Card</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome</h1>
+      <hr />
+      <h2>Product List</h2>
+      <table class="u-full-width" id="product-list">
+        <thead>
+          <th>Product</th>
+          <th>Price</th>
+          <th>Option</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Rice</td>
+            <td>60</td>
+            <td><button class="cart-button">Add to Cart</button></td>
+          </tr>
+          <tr>
+            <td>Beef</td>
+            <td>800</td>
+            <td><button class="cart-button">Add to Cart</button></td>
+          </tr>
+          <tr>
+            <td>Soyabean Oil</td>
+            <td>190</td>
+            <td><button class="cart-button">Add to Cart</button></td>
+          </tr>
+          <tr>
+            <td>Gas</td>
+            <td>999</td>
+            <td><button class="cart-button">Add to Cart</button></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <br />
+
+      <h2>Cart List</h2>
+      <table class="u-full-width" id="cart-list">
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Option</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
